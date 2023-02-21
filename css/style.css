@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+:root{
+    --roxo: hsl(263, 55%, 52%);
+    --cinza-escuro: hsl(217, 19%, 35%);
+    --azul-escuro: hsl(219, 29%, 14%);
+    --branco: hsl(0, 0%, 100%);
+    --cinza-claro: hsl(0, 0%, 81%);
+    --ovo: hsl(210, 46%, 95%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: var(--ovo);
+}
+
+main{
+    color: var(--branco);
+    margin: 30px 20px;
+}
+
+section{
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.192);
+}
+
+section div.pessoa{
+    display: flex;
+}
+
+section div.pessoa > img{
+    border-radius: 50%;
+    border: 1.5px solid var(--ovo);
+    margin: 0px 10px 0px 0px;
+    width: 40px;
+}
+
+section div.pessoa > div.nome-status{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section div.pessoa p{
+    color: white;
+}
+
+section p.frase{
+    font-size: 1.1em;
+    margin: 15px 0px;
+}
+
+section p.review{
+    opacity: 70%;
+    font-size: 0.85em;
+}
+
+section div.pessoa p.verified{
+    opacity: 50%;
+    font-size: 0.8em;
+}
+
+section#daniel{
+    background: var(--roxo) url('../images/bg-pattern-quotation.svg') no-repeat 90% 0%;  
+}
+
+section#jonathan{
+    background-color: var(--cinza-escuro);
+}
+
+section.bg-white{
+    background-color: var(--branco);
+    color: var(--azul-escuro);
+}
+
+section div.pessoa > div.nome p{
+    color: var(--azul-escuro);
+}
+
+section#patrick{
+    background-color: var(--azul-escuro);
+}
+
+section#patrick img{
+    border: 1px solid var(--roxo);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (min-width:1024px){
+    main{
+        width: 75vw;
+        margin: 6.5% auto;
+        display: grid;
+        gap: 1.5em;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    section{
+       margin: 0; 
+    }
+
+    section.coluna{
+        display: grid;
+        grid-column: span 2;
+    }
+
+    section.linha{
+        display: grid;
+        grid-column-start: 4;   
+        grid-row: 1/3;  
+    }
+}

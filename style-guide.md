@@ -29,7 +29,6 @@ Note for text colors:
 ## Typography
 
 ### Body Copy
-
 - Font size: 13px
 
 ### Font
