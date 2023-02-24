@@ -1,12 +1,12 @@
 <h1 align="center"><strong>Testimonial</strong><h1>
 
 <div align="center">
-    <img src="./images/mobile.gif" alt="Celular imagem">
-    <img src="./design/desktop-design.jpg" alt="Computador imagem">
+    <img src="./images/mobile.gif" alt="Celular imagem" height="550px">
+    <img src="./images/desktopmeu.png" alt="Computador imagem" width="90%">
 </div> <br>
 
 # **Sobre o Projeto**
-Projeto Testimonial disponibilizado pelo [Frontend Mentor](https://www.frontendmentor.io/home) feito utilizando responsividade, grid layout, flexbox, mobile first.  <br><br>
+Projeto <strong>Testimonial</strong> disponibilizado por [Frontend Mentor](https://www.frontendmentor.io/home) feito utilizando responsividade, grid layout, flexbox, mobile first.  <br><br>
   
 
 # **Tecnologias**
