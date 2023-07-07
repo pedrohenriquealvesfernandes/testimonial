@@ -6,7 +6,7 @@
 </div> <br>
 
 # **Sobre o Projeto**
-Projeto <strong>Testimonial</strong> disponibilizado por [Frontend Mentor](https://www.frontendmentor.io/home) feito utilizando responsividade, grid layout, flexbox, mobile first.  <br><br>
+Projeto <strong>Testimonial</strong> disponibilizado por [Frontend Mentor](https://www.frontendmentor.io/home) feito utilizando  grid layout, flexbox, responsividade e mobile first.  <br><br>
   
 
 # **Tecnologias**
@@ -26,7 +26,7 @@ Projeto <strong>Testimonial</strong> disponibilizado por [Frontend Mentor](https
 LinkedIn</a><br><br>
 
 # **Disponível**
-Clique <a href="https://pedrohenriquealvesfernandes.github.io/testimonial/" style="color: cyan"><strong>AQUI</strong></a> para acessar a projeto em funcionamento.
+Clique <a href="https://pedrohenriquealvesfernandes.github.io/testimonial/" style="color: cyan"><strong>AQUI</strong></a> para acessar a projeto em funcionamento (resolução a ser exibida 1366px (desktop) e 375px (celular) ).
 
 
 
